@@ -1,5 +1,9 @@
 body {
-  background: #233047;
+  background: #37616c;
+  background-image: url('../src/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -8,4 +12,12 @@ body {
 
 h1 {
   font-size: 2.2rem;
+}
+
+.time-icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
 }
